@@ -6,9 +6,9 @@ Tres sitios originales de muestra, hechos con HTML, CSS y JavaScript, sin framew
 
 | Sitio | Diseño | Interacción |
 | --- | --- | --- |
-| [Luma Dental](https://sergioh-devsec.github.io/web-design-showcase/dental/) | Composición arquitectónica, verde salvia y bloques asimétricos | Selector de etapas de visita, agenda de demostración y FAQ |
-| [Pausa Psicología](https://sergioh-devsec.github.io/web-design-showcase/psicologia/) | Diario editorial, fotografía enmarcada, serif y tonos papel | Carta desplegable, modalidades y agenda de muestra |
-| [Nácar Nail Atelier](https://sergioh-devsec.github.io/web-design-showcase/unas/) | Editorial de moda, contraste burdeos y fotografía protagonista | Selector de tonos y acabados con estimación local |
+| [Dental del Parque](https://sergioh-devsec.github.io/web-design-showcase/dental/) | Composición arquitectónica, verde salvia y bloques asimétricos | Selector de etapas de visita, agenda de demostración y FAQ |
+| [Andrea Molina · Psicología](https://sergioh-devsec.github.io/web-design-showcase/psicologia/) | Diario editorial, fotografía enmarcada, serif y tonos papel | Carta desplegable, modalidades y agenda de muestra |
+| [Mariana Nail Atelier](https://sergioh-devsec.github.io/web-design-showcase/unas/) | Editorial de moda, contraste burdeos y fotografía protagonista | Selector de tonos y acabados con estimación local |
 
 ## Alcance
 
@@ -37,3 +37,14 @@ Abre `http://localhost:8080/`. La publicación usa GitHub Pages desde `main` / r
 Sustituir la identidad de muestra por datos autorizados; aportar credenciales profesionales verificadas cuando corresponda; integrar una agenda real y sus avisos de privacidad; conectar mensajes o pagos solo tras configurar y probar sus proveedores.
 
 Diseño y desarrollo: CyberSerchMX. Código visible para evaluar el trabajo; no se concede una licencia de redistribución implícita. Los nombres se usan como conceptos ficticios, sin afirmar titularidad registral. Ver [IMAGE-PROMPTS.md](IMAGE-PROMPTS.md) para la procedencia de las imágenes.
+
+
+## Ejercicios básicos, separados del portafolio principal
+
+- [Calculadora](basicos/calculadora/): precedencia, paréntesis, porcentajes y control de errores, sin eval.
+- [Juego de memoria](basicos/memoria/): ocho parejas, contador de intentos y reinicio seguro.
+- [Lista de tareas](basicos/tareas/): tareas en memoria y descarga local de texto.
+
+[Probar los ejercicios](https://sergioh-devsec.github.io/web-design-showcase/basicos/). No se enlazan desde la página principal de CyberSerchMX.
+
+Pruebas de lógica: `node --test tests/*.test.cjs`. Para verlos localmente: `python -m http.server 8080` desde esta carpeta y abrir `/basicos/`. Sin dependencias, cuentas ni persistencia de datos.
