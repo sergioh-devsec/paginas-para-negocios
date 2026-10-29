@@ -6,9 +6,9 @@ Tres sitios originales de muestra, hechos con HTML, CSS y JavaScript, sin framew
 
 | Sitio | Diseño | Interacción |
 | --- | --- | --- |
-| [Luma Dental](https://sergioh-devsec.github.io/web-design-showcase/dental/) | Verde salvia, composición luminosa, tipografía clara | Agenda de demostración y preguntas desplegables |
-| [Pausa Psicología](https://sergioh-devsec.github.io/web-design-showcase/psicologia/) | Editorial cálido, serif, tonos arena | Modalidad de encuentro y agenda de muestra |
-| [Nácar Nail Atelier](https://sergioh-devsec.github.io/web-design-showcase/unas/) | Rosa y burdeos, dirección de arte de belleza | Selector de tonos y acabados con estimación local |
+| [Luma Dental](https://sergioh-devsec.github.io/web-design-showcase/dental/) | Composición arquitectónica, verde salvia y bloques asimétricos | Selector de etapas de visita, agenda de demostración y FAQ |
+| [Pausa Psicología](https://sergioh-devsec.github.io/web-design-showcase/psicologia/) | Diario editorial, fotografía enmarcada, serif y tonos papel | Carta desplegable, modalidades y agenda de muestra |
+| [Nácar Nail Atelier](https://sergioh-devsec.github.io/web-design-showcase/unas/) | Editorial de moda, contraste burdeos y fotografía protagonista | Selector de tonos y acabados con estimación local |
 
 ## Alcance
 

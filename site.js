@@ -16,6 +16,16 @@
   }
   if(typeof module!=='undefined'&&module.exports)module.exports={quoteStyle,demoDays};
   if(typeof document==='undefined')return;
+  // A simple, keyboard-native disclosure for the three stages of a visit.
+  const visitButtons=[...document.querySelectorAll('[data-visit]')];
+  visitButtons.forEach(button=>button.addEventListener('click',()=>{
+    visitButtons.forEach(item=>{
+      const selected=item===button;
+      item.setAttribute('aria-pressed',String(selected));
+      const panel=document.getElementById(item.getAttribute('aria-controls'));
+      if(panel)panel.hidden=!selected;
+    });
+  }));
   const menu=document.querySelector('.menu-toggle'),nav=document.getElementById('navigation');
   function closeMenu(){if(!menu||!nav)return;menu.setAttribute('aria-expanded','false');nav.classList.remove('open');}
   menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open);});
